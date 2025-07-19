@@ -61,6 +61,12 @@ src
 ### 메인화면
 <img width="1920" height="1080" alt="스크린샷 2025-07-19 오후 8 32 12" src="https://github.com/user-attachments/assets/57caaaa3-4542-426d-ab97-4bb732ed6720" />
 
+---
+
+### 가구 상세보기
+- 가구의 이름을 클릭
+<img width="1920" height="1080" alt="스크린샷 2025-07-19 오후 8 34 06" src="https://github.com/user-attachments/assets/3a961484-a654-4199-a736-66efc6a7284a" />
+
 ### 가구 추가기능
 <img width="1920" height="1080" alt="스크린샷 2025-07-19 오후 8 32 52" src="https://github.com/user-attachments/assets/c4bcde07-3ddb-473a-b75a-eacb40ec1516" />
 <img width="1920" height="1080" alt="스크린샷 2025-07-19 오후 8 32 55" src="https://github.com/user-attachments/assets/388993cd-2ee8-4c70-8f9e-18cef10fe2eb" />
