@@ -14,12 +14,12 @@
     <!-- SqlSessionFactory -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
-        <property name="mapperLocations" value="classpath:/mappers/**/*.xml"/>
-        <property name="typeAliasesPackage" value="com.example.domain" />
+        <property name="mapperLocations" value="classpath:mappers/FurnitureMapper.xml"/>
+        <property name="typeAliasesPackage" value="org.example.WebServiceHW3.vo" />
     </bean>
 
     <!-- Mapper Scan -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.example.mapper" />
+        <property name="basePackage" value="org.example.WebServiceHW3" />
     </bean>
 </beans>

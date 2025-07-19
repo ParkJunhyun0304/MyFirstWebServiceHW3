@@ -1,0 +1,27 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.WebServiceHW3.mapper.FurnitureMapper">
+
+    <select id="getList" resultType="FurnitureVO">
+        SELECT * FROM furniture ORDER BY id DESC
+    </select>
+
+    <select id="getById" parameterType="int" resultType="FurnitureVO">
+        SELECT * FROM furniture WHERE id = #{id}
+    </select>
+
+    <insert id="insert" parameterType="FurnitureVO">
+        INSERT INTO furniture (name, price, category, width, depth, height)
+        VALUES (#{name}, #{price}, #{category}, #{width}, #{depth}, #{height})
+    </insert>
+
+    <update id="update" parameterType="FurnitureVO">
+        UPDATE furniture SET price=#{price}, width=#{width}, depth=#{depth}, height=#{height} WHERE id=#{id}
+    </update>
+
+    <delete id="delete" parameterType="int">
+        DELETE FROM furniture WHERE id = #{id}
+    </delete>
+
+</mapper>
